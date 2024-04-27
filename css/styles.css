@@ -1,0 +1,321 @@
+/* ============ COMMON STYLES ============ */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+ul,
+ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+button {
+    cursor: pointer;
+}
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img {
+    display: block;
+
+}
+ .section-paddings {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+ }
+ .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* ====== HEADER STYLES ====== */
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+}
+.logo-part {
+    color: #2e2f42;
+}
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+    display: block;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: #404bbf;
+}
+/* ======= ADDRESS ======= */
+.address {
+    font-style: normal;
+    margin-left: auto;
+    
+}
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
+.address-link {
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
+}
+/* ======= HERO STYLES ======= */
+.hero {
+    background: #2e2f42;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.hero {
+    padding: 188px 0;
+}
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    align-content: center;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+      
+}
+.order-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4D5AE5;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    /* border: 1px solid #000; */
+    padding: 16px 32px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+}
+.order-btn:hover,
+.order-btn:focus {
+    background-color: #404bbf;
+}
+
+/* ======= Advantages ======= */
+.advantages-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.advantages-title-descr {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    width: 264px;
+
+}
+.advantages-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+/* ======= OUR TEAM ======= */
+.team-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.team-name-container {
+    border-radius: 0 0 4px 4px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+        
+}
+.team-section {
+    background: #f4f4fd;
+    
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    padding: 0 auto;
+    margin-bottom: 72px;
+
+}
+.team-list-item {
+    width: calc((100% - 72px)/4);
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    
+}
+.team-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    
+
+}
+.team-list-role {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+
+}
+
+/* ======= PORTFOLIO ======= */
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+    
+}
+.portfolio-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.portfolio-list-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
+}
+.portfolio-list-item {
+    width: calc((100% - 48px) / 3 );
+    
+}
+
+.portfolio-item-text {
+    padding: 32px 16px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    border-top: none;
+     
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+/* ======= Footer ====== */
+.page-footer {
+    background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.page-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+}
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.accent-color-footer {
+    color: #f4f4fd;
+}
+.accent-color-footer:hover,
+.accent-color-footer:focus {
+    color: #404bbf;
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    width: 264px;
+}
